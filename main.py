@@ -32,8 +32,8 @@ class Bot:
     def spam():
         self.driver.get("https://www.instagram.com")
         sleep(2)
-        self.driver.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[1]/div/label/input').send_keys("instaspamdotxyz")
-        self.driver.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[2]/div/label/input').send_keys("Qay396mkl")
+        self.driver.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[1]/div/label/input').send_keys("yourPW")
+        self.driver.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[2]/div/label/input').send_keys("yourUN")
         self.driver.find_element_by_xpath('/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[3]/button').click()
         sleep(2)
         self.driver.find_element_by_xpath('/html/body/div[1]/section/main/div/div/div/div/button').click()
